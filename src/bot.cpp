@@ -5,7 +5,7 @@ int main(){
 
     // Create an instance of dpp::cluster object
     // this is like Discord.Client object
-    dpp::cluster client("Nzk2MzEyNTM2MDEzNzMzODk4.X_WF1w.zJkJOGXRaaqP_fdGleD4jjsyyBw");
+    dpp::cluster client("BOT_TOKEN_GOES_HERE");
 
     // on ready event
     client.on_ready([&client](const dpp::ready_t &event) {
